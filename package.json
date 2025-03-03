@@ -1,0 +1,31 @@
+{
+  "name": "dev-sis-one",
+  "version": "1.0.0",
+  "description": "- Aprendendo a como criar um projeto em Node.js com TypeScript do zero;\r - Utilizando comando basicos em TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "sistema_gerenciamento_funcionarios_01": "ts-node src/atividades/GerenciamentoFuncionarios01.ts",
+    "gerenciador_tarefas_colaborativo": "ts-node src/atividades/GerenciamentoTarefasColaborativo.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheus-berger/dev-sis-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matheus-berger/dev-sis-one/issues"
+  },
+  "homepage": "https://github.com/matheus-berger/dev-sis-one#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
