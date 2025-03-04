@@ -21,7 +21,7 @@
   *    5. Teste a função aumentarSalario com um dos funcionários e exiba o novo salário.
   */
 
-import { Funcionario } from "./models/atv01/Funcionario";
+import { Funcionario } from "./models/Funcionario";
 
 // Lista de objetos funcionarios com dados fictícios:
 const funcionario1: Funcionario = new Funcionario(
