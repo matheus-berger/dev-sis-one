@@ -1,12 +1,18 @@
 {
   "name": "dev-sis-one",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "- Aprendendo a como criar um projeto em Node.js com TypeScript do zero;\r - Utilizando comando basicos em TypeScript.",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "sistema_gerenciamento_funcionarios_01": "ts-node src/atividades/atv01/GerenciamentoFuncionarios01.ts",
-    "gerenciador_tarefas_colaborativo": "ts-node src/atividades/atv02/GerenciadorTarefasColaborativo.ts",
+    "ex01": "ts-node src/aula-01/atividades/atv01/GerenciamentoFuncionarios01.ts",
+    "ex02": "ts-node src/aula-01/atividades/atv02/GerenciadorTarefasColaborativo.ts",
+    "ex03": "ts-node src/aula-02/atividades/atv03/TiposPrimitivos.ts",
+    "ex04": "ts-node src/aula-02/atividades/atv04/VerDiaDaSemana.ts",
+    "ex05": "ts-node src/aula-02/atividades/atv05/DadosDeCarro.ts",
+    "ex06": "ts-node src/aula-02/atividades/atv06/Multiplicacao.ts",
+    "ex07": "ts-node src/aula-02/atividades/atv07/Saudacao.ts",
+    "ex08": "ts-node src/aula-02/atividades/atv08/Desconto.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
