@@ -13,6 +13,9 @@
     "ex06": "ts-node src/aula-02/atividades/atv06/Multiplicacao.ts",
     "ex07": "ts-node src/aula-02/atividades/atv07/Saudacao.ts",
     "ex08": "ts-node src/aula-02/atividades/atv08/Desconto.ts",
+    "sistema_gerenciamento_funcionarios_01": "ts-node src/atividades/atv01/GerenciamentoFuncionarios01.ts",
+    "gerenciador_tarefas_colaborativo": "ts-node src/atividades/atv02/GerenciadorTarefasColaborativo.ts",
+    "sistema_gestao_funcionarios": "ts-node src/atividades/atv03/SistemaGestaoFuncionarios.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
